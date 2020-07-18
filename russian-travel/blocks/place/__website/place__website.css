@@ -1,0 +1,17 @@
+.place__website {
+    grid-row: 1;
+    grid-column: 2;
+    align-self: flex-end;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.place__website:hover {
+    color: #E5E5E5;
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        display: none;
+    }
+}

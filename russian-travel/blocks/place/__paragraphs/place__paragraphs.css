@@ -1,0 +1,12 @@
+.place__paragraphs {
+    grid-column: 2;
+    grid-row: 2;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraphs {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
