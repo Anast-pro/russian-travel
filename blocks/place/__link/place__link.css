@@ -4,3 +4,9 @@
     font-size: 18px;
     line-height: 122%;
 }
+
+.place__link:hover {
+    opacity: 0.8;
+    transform: translate(12px, 0);
+    transition: translate 1.3s ease-in;
+}

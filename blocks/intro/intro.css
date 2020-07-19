@@ -1,19 +1,22 @@
     .intro {
+        display: flex;
+        flex-direction: column;
         max-width: 690px;
         padding-top: 92px;
         padding-bottom: 92px;
-        padding-left: 148px;
+        margin-left: 96px;
+        margin-right: auto;
     }
     
     @media screen and (max-width: 1024px) {
         .intro {
-            padding-left: 48px;
+            margin-left: 96px;
         }
     }
     
     @media screen and (max-width: 768px) {
         .intro {
-            padding-left: 24px;
+            margin-left: 24px;
             padding-right: 24px;
             padding-bottom: 88px;
             max-width: 720px;
@@ -24,11 +27,5 @@
         .intro {
             padding: 64px 16px 64px 16px;
             max-width: 288px;
-        }
-    }
-    
-    @media screen and (min-width: 1400px) {
-        .intro {
-            margin: auto;
         }
     }

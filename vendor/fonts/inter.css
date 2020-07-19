@@ -36,7 +36,7 @@
 @font-face {
     font-family: 'Inter';
     src: local('Inter Black'), local('Inter-Black'), url('Interblack.woff2') format('woff2'), url('Interblack.woff') format('woff'), url('Interblack.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 900;
     font-style: normal;
 }
 
@@ -54,31 +54,16 @@
     font-style: italic;
 }
 
-
-/*@font-face {
+@font-face {
     font-family: 'Inter';
     src: local('Inter Bold'), local('Inter-Bold'), url('Interbold.woff2') format('woff2'), url('Interbold.woff') format('woff'), url('Interbold.ttf') format('truetype');
     font-weight: 700;
-    font-style: bolder;
-}*/
+    font-style: bold;
+}
 
 @font-face {
     font-family: 'Inter';
     src: local('Inter Black Italic'), local('Inter-BlackItalic'), url('Interblackitalic.woff2') format('woff2'), url('Interblackitalic.woff') format('woff'), url('Interblackitalic.ttf') format('truetype');
     font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: local('Inter Extra Bold'), local('Inter-ExtraBold'), url('Interextrabold.woff2') format('woff2'), url('Interextrabold.woff') format('woff'), url('Interextrabold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: 800;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: local('Inter Extra Bold Italic'), local('Inter-ExtraBoldItalic'), url('Interextrabolditalic.woff2') format('woff2'), url('Interextrabolditalic.woff') format('woff'), url('Interextrabolditalic.ttf') format('truetype');
-    font-weight: 800;
     font-style: italic;
 }

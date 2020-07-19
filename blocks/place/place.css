@@ -2,8 +2,7 @@
      display: grid;
      object-fit: contain;
      box-sizing: border-box;
-     grid-template-columns: fit-content(460px) fit-content(484px);
-     grid-template-rows: auto 460px;
+     grid-template-columns: 1.02fr 1.05fr;
      grid-gap: 48px 40px;
      margin-top: 92px;
  }
@@ -11,8 +10,7 @@
  @media screen and (max-width: 1024px) {
      .place {
          grid-gap: 48px 32px;
-         grid-template-columns: fit-content(440px) fit-content(456px);
-         grid-template-rows: auto 440px;
+         grid-template-columns: 1.02fr 1.05fr;
      }
  }
  
@@ -20,17 +18,17 @@
      .place {
          grid-gap: 48px 28px;
          margin-top: 88px;
-         grid-template-columns: fit-content(340px) fit-content(352px);
-         grid-template-rows: auto 388px;
      }
  }
  
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 710px) {
      .place {
          display: flex;
          flex-direction: column;
          padding-left: 0;
          padding-right: 0;
          margin-top: 24px;
+         margin-bottom: 0;
+         margin-top: 64px;
      }
  }

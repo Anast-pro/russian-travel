@@ -6,11 +6,7 @@
     text-decoration: none;
 }
 
-.place__website:hover {
-    color: #E5E5E5;
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 710px) {
     .place__website {
         display: none;
     }
