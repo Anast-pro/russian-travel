@@ -2,30 +2,25 @@
         display: flex;
         flex-direction: column;
         max-width: 690px;
-        padding-top: 92px;
-        padding-bottom: 92px;
-        margin-left: 96px;
-        margin-right: auto;
+        margin: 92px auto 92px 96px;
     }
     
     @media screen and (max-width: 1024px) {
         .intro {
-            margin-left: 96px;
+            margin-left: 48px;
         }
     }
     
     @media screen and (max-width: 768px) {
         .intro {
-            margin-left: 24px;
-            padding-right: 24px;
-            padding-bottom: 88px;
+            margin: 88px auto 88px 24px;
             max-width: 720px;
         }
     }
     
     @media screen and (max-width: 320px) {
         .intro {
-            padding: 64px 16px 64px 16px;
+            margin: 64px 16px 64px 16px;
             max-width: 288px;
         }
     }

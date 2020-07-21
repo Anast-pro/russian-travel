@@ -3,10 +3,10 @@
     margin: 0;
     font-size: 18px;
     line-height: 122%;
+    color: #FFFFFF;
+    transition: 1.5s;
 }
 
 .place__link:hover {
     opacity: 0.8;
-    transform: translate(12px, 0);
-    transition: translate 1.3s ease-in;
 }
