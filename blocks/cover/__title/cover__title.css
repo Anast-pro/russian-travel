@@ -4,21 +4,18 @@
     font-size: 72px;
     line-height: 106%;
     text-align: center;
-    margin: auto;
-    z-index: 3;
-    opacity: 1;
-    position: relative;
+    margin: 245px auto 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__title {
-        padding-top: 195px;
+        margin-top: 195px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__title {
-        padding-top: 115px;
+        margin-top: 115px;
     }
 }
 
@@ -27,7 +24,6 @@
         width: 250px;
         font-size: 32px;
         line-height: 109%;
-        padding-top: 24px;
-        height: 70px;
+        margin-top: 33px;
     }
 }
