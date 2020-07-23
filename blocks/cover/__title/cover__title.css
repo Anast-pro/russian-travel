@@ -4,19 +4,8 @@
     font-size: 72px;
     line-height: 106%;
     text-align: center;
-    margin: 245px auto 0 auto;
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__title {
-        margin-top: 195px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__title {
-        margin-top: 115px;
-    }
+    margin: 0;
+    margin-bottom: 32px;
 }
 
 @media screen and (max-width: 560px) {
@@ -24,6 +13,6 @@
         width: 250px;
         font-size: 32px;
         line-height: 109%;
-        margin-top: 33px;
+        margin-bottom: 16px;
     }
 }

@@ -4,19 +4,7 @@
     line-height: 122%;
     text-align: center;
     font-weight: normal;
-    margin: 32px auto 245px auto;
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-        margin-bottom: 195px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__subtitle {
-        margin-bottom: 115px;
-    }
+    margin: 0;
 }
 
 @media screen and (max-width: 320px) {
@@ -24,7 +12,5 @@
         max-width: 288px;
         font-size: 14px;
         line-height: 114%;
-        margin-top: 16px;
-        margin-bottom: 33px;
     }
 }
